@@ -1,0 +1,80 @@
+.team-container {
+  margin-bottom: 30px;
+}
+
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.team-header h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.team-header i {
+  color: #fff;
+  font-size: 16px;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+}
+
+.member-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.member-details h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.member-details p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.member-status {
+  margin-left: auto;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.member-status.available {
+  color: #00cc00;
+}
+
+.member-status.busy {
+  color: #ff0000;
+}
+
+.member-status.offline {
+  color: #555;
+}

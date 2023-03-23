@@ -1,0 +1,29 @@
+.user-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #000;
+}
+
+.user-avatar {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: auto;
+}
+
+.user-details h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.user-details p {
+  margin-bottom: 0.25rem;
+}
